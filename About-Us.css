@@ -140,12 +140,15 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1202px;
+    min-height: 1082px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    width: 340px;
+    margin-top: -93px;
     margin-bottom: 0;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -162,6 +165,8 @@
   }
 
   .u-section-2 .u-image-2 {
-    margin-top: -270px;
+    --radius: 50px;
+    margin-top: -300px;
+    margin-bottom: 30px;
   }
 }
